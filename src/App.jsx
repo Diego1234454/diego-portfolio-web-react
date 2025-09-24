@@ -11,14 +11,14 @@ function App() {
   return (
     <>
         <Header/>
-        <div className="bg-black/90">
+        <body className="bg-black/90">
             <Hero/>
             {/*EXPERIENCE*/}
             <Projects/>
             <About/>
             <ContactSection/>
             <Footer/>
-        </div>
+        </body>
 
     </>
   )

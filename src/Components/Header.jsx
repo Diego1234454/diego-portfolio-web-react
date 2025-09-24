@@ -33,8 +33,8 @@ export const Header = () => {
 
     return (
         <>
-            <div className={`top-0 z-50 sticky flex flex-col min-w-screen resize transition-colors duration-300 ${scrolled ? "bg-black/95" : "bg-black/90"}`}>
-                <div className="w-full justify-between px-2 sm:px-2 md:px-20 p-4 flex">
+            <div className={`top-0 z-50 sticky flex flex-col min-w-full resize transition-colors duration-300 ${scrolled ? "bg-black/95" : "bg-black/90"}`}>
+                <div className="w-full justify-between px-2 sm:px-2 md:px-20 py-4 flex">
                     <a className="flex items-center justify-between gap-2" href="#">
                         <FontAwesomeIcon icon={faTerminal} className="text-blue-400" size="xl" />
                         <h1 className="text-white/95 text-2xl font-thin">Diego Véliz's Web Portfolio</h1>
