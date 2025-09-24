@@ -2,10 +2,10 @@ export const Projects = () => {
 
     const projectList = [
 
-        {id: 1, name: "Diego Véliz's Web Portfolio", description: "First ever project done only by my self, and own web portfolio.", tags: ["HTML", "TailWindCSS", "JavaScript"], imageUrl: "/src/assets/web-portfolio.png", href: "#"},
-        // {id: 2, name: "Project 2", description: "Project description", tags: ["HTML", "CSS", "JavaScript"], imageUrl: "/src/assets/gatin.png", href: "#"},
-        // {id: 3, name: "Project 3", description: "Project description", tags: ["HTML", "CSS", "JavaScript"], imageUrl: "/src/assets/gatin.png", href: "#"},
-        // {id: 4, name: "Project 4", description: "Project description", tags: ["HTML", "CSS", "JavaScript"], imageUrl: "/src/assets/gatin.png", href: "#"},
+        {id: 1, name: "Diego Véliz's Web Portfolio", description: "First ever project done only by my self, and own web portfolio.", tags: ["HTML", "TailWindCSS", "JavaScript"], imageUrl: "/Projects/web-portfolio.png", href: "#"},
+        // {id: 2, name: "Project 2", description: "Project description", tags: ["HTML", "CSS", "JavaScript"], imageUrl: "/Projects/gatin.png", href: "#"},
+        // {id: 3, name: "Project 3", description: "Project description", tags: ["HTML", "CSS", "JavaScript"], imageUrl: "/Projects/gatin.png", href: "#"},
+        // {id: 4, name: "Project 4", description: "Project description", tags: ["HTML", "CSS", "JavaScript"], imageUrl: "/Projects/gatin.png", href: "#"},
 
 
 
