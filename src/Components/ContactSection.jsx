@@ -14,8 +14,11 @@ import {
 export const ContactSection = () => {
     return (
         <>
-            <div className="flex items-center justify-center bg-black/80 py-7" id="contact">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div className="flex w-full items-center justify-center py-7" id="contact">
+
+
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 ">
                     <div className="space-y-8">
                         <div className="space-y-6 justify-center">
                             <div className="flex items-start space-x-4">

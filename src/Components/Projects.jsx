@@ -2,7 +2,7 @@ export const Projects = () => {
 
     const projectList = [
 
-        {id: 1, name: "Diego Véliz's Web Portfolio", description: "First ever project done only by my self, and own web portfolio.", tags: ["HTML", "TailWindCSS", "JavaScript"], imageUrl: "/Projects/web-portfolio.png", href: "#"},
+        {id: 1, name: "Diego Véliz's Web Portfolio", description: "First ever project done only by my self, and own web portfolio.", tags: ["HTML", "TailWindCSS", "JavaScript"], imageUrl: "/Projects/web-portfolio.png", href: "https://diego-portfolio-web-react.vercel.app/"},
         // {id: 2, name: "Project 2", description: "Project description", tags: ["HTML", "CSS", "JavaScript"], imageUrl: "/Projects/gatin.png", href: "#"},
         // {id: 3, name: "Project 3", description: "Project description", tags: ["HTML", "CSS", "JavaScript"], imageUrl: "/Projects/gatin.png", href: "#"},
         // {id: 4, name: "Project 4", description: "Project description", tags: ["HTML", "CSS", "JavaScript"], imageUrl: "/Projects/gatin.png", href: "#"},
@@ -12,8 +12,8 @@ export const Projects = () => {
     ]
 
     return (
-        <div id="projects" className="scroll-mt-24">
-            <div className=" relative min-h-screen flex flex-col items-center w-full">
+        <div id="projects" className="scroll-mt-24 ">
+            <div className=" relative min-h-svh flex flex-col items-center w-full">
 
                 <div className="relative flex flex-col">
                     <h2 className="text-3xl md:text-4xl font-bold text-center text-white/80" > Featured <span className="text-blue-400/80">Projects</span></h2>
