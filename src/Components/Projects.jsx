@@ -12,8 +12,8 @@ export const Projects = () => {
     ]
 
     return (
-        <div id="projects">
-            <div className=" relative min-h-screen flex flex-col items-center justify-center w-full">
+        <div id="projects" className="scroll-mt-24">
+            <div className=" relative min-h-screen flex flex-col items-center w-full">
 
                 <div className="relative flex flex-col">
                     <h2 className="text-3xl md:text-4xl font-bold text-center text-white/80" > Featured <span className="text-blue-400/80">Projects</span></h2>

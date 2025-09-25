@@ -5,6 +5,7 @@ import {Projects} from "./Components/Projects.jsx";
 import About from "./Components/About.jsx";
 import {ContactSection} from "./Components/ContactSection.jsx";
 import {Footer} from "./Components/Footer.jsx";
+import {Experience} from "./Components/Experience.jsx";
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
         <Header/>
         <body className="bg-black/90">
             <Hero/>
-            {/*EXPERIENCE*/}
+            <Experience/>
             <Projects/>
             <About/>
             <ContactSection/>

@@ -33,7 +33,7 @@ export const Header = () => {
 
     return (
         <>
-            <div className={`top-0 z-50 sticky flex flex-col min-w-full resize transition-colors duration-300 ${scrolled ? "bg-black/95" : "bg-black/90"}`}>
+            <nav className={`top-0 z-50 sticky flex flex-col min-w-full resize transition-colors duration-300 ${scrolled ? "bg-black/95" : "bg-black/90"}`}>
                 <div className="w-full justify-between px-2 sm:px-2 md:px-20 py-4 flex">
                     <a className="flex items-center justify-between gap-2" href="#">
                         <FontAwesomeIcon icon={faTerminal} className="text-blue-400" size="xl" />
@@ -47,7 +47,7 @@ export const Header = () => {
                             <a
                                 key={key}
                                 href={item.href}
-                                className="text-foreground/80 hover:text-primary transition-colors duration-300 hover:text-blue-400 font-semibold"
+                                className="transition-colors duration-300 hover:text-blue-400 font-semibold"
                             >
                                 {item.name}
                             </a>
@@ -82,7 +82,7 @@ export const Header = () => {
                     </div>
 
                 </div>
-            </div>
+            </nav>
         </>
     )
 }
