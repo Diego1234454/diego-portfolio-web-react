@@ -33,7 +33,7 @@ export const Header = () => {
 
     return (
         <>
-            <nav className={`top-0 z-50 sticky flex flex-col min-w-full resize transition-colors duration-300 ${scrolled ? "bg-black/95" : "bg-black/90"}`}>
+            <nav className={`top-0 z-50 sticky flex flex-col min-w-full resize transition-all p-1 duration-300 ${scrolled ? "bg-black/95" : "bg-transparent p-4"}`}>
                 <div className="w-full justify-between px-2 sm:px-2 md:px-20 py-4 flex">
                     <a className="flex items-center justify-between gap-2" href="#">
                         <FontAwesomeIcon icon={faTerminal} className="text-blue-400" size="xl" />
