@@ -1,7 +1,7 @@
 export const Hero = () => {
     return (
         <>
-            <div className="max-h-screen" id="hero">
+            <div className="max-h-screen hiddenElem" id="hero">
                 <div className="grid grid-cols-1 min-h-screen lg:mx-60 md:mx-35 sm:mx-25 px-4 items-center justify-center lg:w-fit md:w-fit sm:w-fit w-full">
                     <div className="flex flex-col gap-10 px-2 w-full tracking-tight">
                         <h1 className="text-blue-300 xl:text-4xl lg:text-2xl sm:text-sm  md:text-xl ">Hi, my name is</h1>

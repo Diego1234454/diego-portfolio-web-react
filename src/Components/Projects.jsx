@@ -18,11 +18,11 @@ export const Projects = () => {
                 <div className="relative flex flex-col">
                     <h2 className="text-3xl md:text-4xl font-bold text-center text-white/80" > Featured <span className="text-blue-400/80">Projects</span></h2>
                     <p className="text-center text-white/70 my-8">
-                        Here are some of my featured projects
+                        Here are some of my projects
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center px-6">
+                <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center px-6 hiddenElem">
                     {projectList.map((item, key) => (
 
                         <div className="scale-[0.9] origin-top-left">

@@ -5,7 +5,7 @@ export const Experience = () => {
                 <div className="flex flex-col items-center justify-start min-w-full"> {/*justify-center*/}
                     <div className="flex flex-col items-center justify-center min-w-full max-w-4xl gap-12">
                         <h1 className="text-blue-400 text-2xl font-semibold capitalized">Education</h1>
-                        <div className="flex flex-col justify-center gap-2 tracking-tight text-justify w-full rounded-sm py-4 px-6 hover:scale-110 transition-transform duration-300 overflow-auto  max-w-xl md:max-w-xl lg:max-w-md xl:max-w-xl  xs:bg-blue-950">
+                        <div className="flex flex-col hiddenElem justify-center gap-2 tracking-tight text-justify w-full rounded-sm py-4 px-6 hover:scale-110 transition-transform duration-300 overflow-auto  max-w-xl md:max-w-xl lg:max-w-md xl:max-w-xl  xs:bg-blue-950">
                             <h2 className="text-white/90 font-bold">Universidad Tecnologica de Tamaulipas Norte</h2>
                             <p className="text-blue-400/80">2018-2022</p>
                             <p className="text-white/80">Multiplatform Software development</p>
@@ -16,7 +16,7 @@ export const Experience = () => {
                 <div className="flex flex-col items-center justify-start min-w-full"> {/*justify-center*/}
                     <div className="flex flex-col items-center  min-w-full max-w-4xl gap-12 ">
                         <h1 className="text-blue-400 text-2xl font-semibold ">Experience</h1>
-                        <div className="flex flex-col justify-center gap-2 tracking-tight text-justify w-full rounded-sm py-4 px-6 hover:scale-110 transition-transform duration-300 overflow-auto  max-w-xl md:max-w-xl lg:max-w-md xl:max-w-xl">
+                        <div className="flex flex-col hiddenElem justify-center gap-2 tracking-tight text-justify w-full rounded-sm py-4 px-6 hover:scale-110 transition-transform duration-300 overflow-auto  max-w-xl md:max-w-xl lg:max-w-md xl:max-w-xl">
                             <h2 className="text-white/90 font-bold">Alcom Electrónicos De México</h2>
                             <p className="text-blue-400/80">Feb. 2022 - Dec. 2024</p>
                             <ul className="space-y-4 ">
@@ -32,7 +32,7 @@ export const Experience = () => {
                             </ul>
                         </div>
 
-                        <div className="flex flex-col justify-center gap-2 tracking-tight text-justify w-full rounded-sm py-4 px-6 hover:scale-110 transition-transform duration-300 overflow-auto  max-w-xl md:max-w-xl lg:max-w-md xl:max-w-xl">
+                        <div className="flex flex-col hiddenElem justify-center gap-2 tracking-tight text-justify w-full rounded-sm py-4 px-6 hover:scale-110 transition-transform duration-300 overflow-auto  max-w-xl md:max-w-xl lg:max-w-md xl:max-w-xl">
                             <h2 className="text-white/90 font-bold">Corning</h2>
                             <p className="text-blue-400/80">Jan. 2025 - Apr. 2025</p>
                             <ul className="space-y-4 ">

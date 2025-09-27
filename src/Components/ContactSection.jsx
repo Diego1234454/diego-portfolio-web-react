@@ -14,7 +14,7 @@ import {
 export const ContactSection = () => {
     return (
         <>
-            <div className="flex w-full items-center justify-center py-7" id="contact">
+            <div className="flex w-full items-center justify-center py-7 hiddenElem" id="contact">
 
 
 
