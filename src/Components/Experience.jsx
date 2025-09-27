@@ -1,7 +1,7 @@
 export const Experience = () => {
     return (
         <>
-            <div className="grid sm:grid-cols-1 md:flex-col lg:grid-cols-2 min-h-screen space-y-8 scroll-mt-24 my-20" id="experience">
+            <div className="grid sm:grid-cols-1 md:flex-col lg:grid-cols-2 min-h-screen space-y-8 scroll-mt-28 my-20" id="experience">
                 <div className="flex flex-col items-center justify-start min-w-full"> {/*justify-center*/}
                     <div className="flex flex-col items-center justify-center min-w-full max-w-4xl gap-12">
                         <h1 className="text-blue-400 text-2xl font-semibold capitalized">Education</h1>
