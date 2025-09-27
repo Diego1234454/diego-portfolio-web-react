@@ -11,7 +11,7 @@ export const Header = () => {
         {name: "Home", href: "#"},
         {name: "Experience", href: "#experience"},
         {name: "Projects", href: "#projects"},
-        {name: "About", href: "#about"},
+        {name: "About Me", href: "#about"},
         {name: "Contact", href: "#contact"},
 
     ]
