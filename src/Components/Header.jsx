@@ -36,8 +36,8 @@ export const Header = () => {
             <nav className={`top-0 z-50 sticky flex flex-col min-w-full resize transition-all p-1 duration-300 ${scrolled ? "bg-black/95" : "bg-transparent p-2 sm:p-4 md:p-4 lg:p-4 xl:p-4"}`}>
                 <div className="w-full justify-between px-2 sm:px-2 md:px-5 py-4 flex">
                     <a className="flex items-center justify-between gap-2" href="#">
-                        <FontAwesomeIcon icon={faTerminal} className="text-blue-400" size="xl" />
-                        <h1 className="text-white/95 sm:text-1xl md:text-xl lg:text-2xl font-thin xl:text-3xl">Diego Véliz's Web Portfolio</h1>
+                        <FontAwesomeIcon icon={faTerminal} className="text-blue-400 font-semibold" size="xl" />
+                        <h1 className="text-white/90 font-semiboldbold text-shadow-2xs sm:text-1xl md:text-xl lg:text-2xl xl:text-3xl ">Diego Véliz's Web Portfolio</h1>
                     </a>
 
                     {/* desktop nav */}
@@ -47,7 +47,7 @@ export const Header = () => {
                             <a
                                 key={key}
                                 href={item.href}
-                                className="transition-colors duration-300 hover:text-blue-400 font-semibold"
+                                className="transition-colors duration-300 hover:text-blue-300 text-shadow-2xs font-semibold"
                             >
                                 {item.name}
                             </a>

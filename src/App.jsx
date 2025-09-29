@@ -9,13 +9,16 @@ import {useEffect} from "react";
 
 function App() {
 
-// agregar tag css 'hiddenhiddenElem' a elementos para que este codigo de abajo funcione y se agregue animacion de fade in
+// agregar tag css 'hiddenhiddenElem' a elementos para que este codigo de abajo funcione y se agregue animacion de fade in desde el lado izquierdo de la pantalla
+
+    const classNames = ["hiddenElem", "hiddenElem2"];
+
+    const selector = classNames.map(cls => `.${cls}`).join(', ');
+    // Resulting selector string: ".class1, .class2, .my-element"
 
     useEffect(() => {
         const observer = new IntersectionObserver(entries => {
-
             entries.forEach(entry => {
-                console.log(entry);
                 if (entry.isIntersecting) {
                     entry.target.classList.add('show');
                 } else {
@@ -24,23 +27,20 @@ function App() {
             })
         })
 
-        const hiddenElements = document.querySelectorAll('.hiddenElem');
+        const hiddenElements = document.querySelectorAll(selector);
         hiddenElements.forEach((el) => observer.observe(el));
     }, []);
 
   return (
-    <>
+    <div className="bg-black/90">
         <Header/>
-        <body className="bg-black/90">
             <Hero/>
             <Experience/>
             <Projects/>
             <About/>
             <ContactSection/>
             <Footer/>
-        </body>
-
-    </>
+    </div>
   )
 }
 

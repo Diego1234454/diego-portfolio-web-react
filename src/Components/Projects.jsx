@@ -1,13 +1,14 @@
+import { motion } from "motion/react"
+
+
 export const Projects = () => {
 
     const projectList = [
 
         {id: 1, name: "Diego Véliz's Web Portfolio", description: "First ever project done only by my self, and own web portfolio.", tags: ["HTML", "TailWindCSS", "JavaScript"], imageUrl: "/Projects/web-portfolio.png", href: "https://diego-portfolio-web-react.vercel.app/"},
-        // {id: 2, name: "Project 2", description: "Project description", tags: ["HTML", "CSS", "JavaScript"], imageUrl: "/Projects/gatin.png", href: "#"},
+        {id: 1, name: "Estate - Real Estate Company", description: "Real estate app demo", tags: ["HTML", "TailWindCSS", "JavaScript"], imageUrl: "/Projects/real-estate-app.png", href: "https://real-state-react-app-rho.vercel.app/#Contact"},
         // {id: 3, name: "Project 3", description: "Project description", tags: ["HTML", "CSS", "JavaScript"], imageUrl: "/Projects/gatin.png", href: "#"},
         // {id: 4, name: "Project 4", description: "Project description", tags: ["HTML", "CSS", "JavaScript"], imageUrl: "/Projects/gatin.png", href: "#"},
-
-
 
     ]
 
@@ -22,7 +23,12 @@ export const Projects = () => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center px-6 hiddenElem">
+                <motion.div
+                    initial={{opacity: 0, y:-50}}
+                    transition={{duration: 1}}
+                    whileInView={{opacity: 1, y:0}}
+                    viewport={{once: true}}
+                    className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center px-6">
                     {projectList.map((item, key) => (
 
                         <div className="scale-[0.9] origin-top-left">
@@ -55,7 +61,7 @@ export const Projects = () => {
 
 
                     ))}
-                </div>
+                </motion.div>
 
             </div>
         </div>
