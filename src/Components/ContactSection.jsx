@@ -33,7 +33,7 @@ export const ContactSection = () => {
 
         if (data.success) {
             setResult("");
-            toast.success("Message! I'll get back to you soon.");
+            toast.success("Message sent! I'll get back to you soon.");
             event.target.reset();
         } else {
             console.log("Error", data);
