@@ -6,8 +6,8 @@ export const Projects = () => {
     const projectList = [
 
         {id: 1, name: "Diego Véliz's Web Portfolio", description: "First ever project done only by my self, and own web portfolio.", tags: ["HTML", "TailWindCSS", "JavaScript"], imageUrl: "/Projects/web-portfolio.png", href: "https://diego-portfolio-web-react.vercel.app/"},
-        {id: 1, name: "Estate - Real Estate Company", description: "Real estate app demo", tags: ["HTML", "TailWindCSS", "JavaScript"], imageUrl: "/Projects/real-estate-app.png", href: "https://real-state-react-app-rho.vercel.app/#Contact"},
-        // {id: 3, name: "Project 3", description: "Project description", tags: ["HTML", "CSS", "JavaScript"], imageUrl: "/Projects/gatin.png", href: "#"},
+        {id: 2, name: "Estate - Real Estate Company", description: "Real estate app demo", tags: ["HTML", "TailWindCSS", "JavaScript"], imageUrl: "/Projects/real-estate-app.png", href: "https://real-state-react-app-rho.vercel.app/"},
+        {id: 3, name: "Viva CDMX - Travel App Company", description: "Travel / Tour Service Company", tags: ["HTML", "TailWindCSS", "JavaScript", "React Router"], imageUrl: "/Projects/travel-app.png", href: "https://travel-app-react-sandy.vercel.app/"},
         // {id: 4, name: "Project 4", description: "Project description", tags: ["HTML", "CSS", "JavaScript"], imageUrl: "/Projects/gatin.png", href: "#"},
 
     ]
